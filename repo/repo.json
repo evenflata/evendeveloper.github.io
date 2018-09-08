@@ -11,7 +11,7 @@
       "TYPE":"APPLICATION",
       "LOCATION":"https://evendev.us/repo/testapp.app"
     },
-    "com.example.tweak":{
+    "us.evendev.exampletweak":{
       "NAME":"Example Tweak Package",
       "DESCRIPTION":"OwO Idk.",
       "DEVELOPER":"EvenDev",
