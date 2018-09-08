@@ -1,0 +1,31 @@
+{
+  "REPO_NAME":"EvenDev's Repo",
+  "REPO_DESCRIPTION":"This is the first working repo for Altitude!",
+  "REPO_ICON":"http://evendev.us/repo/Icon.png",
+  "REPO_PACKAGES":{
+    "us.evendev.The-Test-App":{
+      "NAME":"Test App",
+      "DESCRIPTION":"This is a test app.",
+      "DEVELOPER":"EvenDev",
+      "ICON":"http://evendev.us/repo/Icon.png",
+      "TYPE":"APPLICATION",
+      "LOCATION":"https://evendev.us/repo/testapp.app"
+    },
+    "com.example.tweak":{
+      "NAME":"Example Tweak Package",
+      "DESCRIPTION":"OwO Idk.",
+      "DEVELOPER":"EvenDev",
+      "ICON":"http://evendev.us/repo/Icon.png",
+      "TYPE":"TWEAK",
+      "LOCATION":"https://evendev.us/repo/Tweak.zip"
+    },
+    "com.mtac8.joli":{
+      "NAME":"Joli",
+      "DESCRIPTION":"Amazing theme for MacOS!",
+      "DEVELOPER":"MTAC8",
+      "ICON":"https://evendev.us/repo/joli.png",
+      "TYPE":"THEME",
+      "LOCATION":"https://evendev.us/repo/Joli.zip"
+    }
+  }
+}
