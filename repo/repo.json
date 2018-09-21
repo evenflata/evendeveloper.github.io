@@ -7,6 +7,9 @@
       "NAME":"Test App",
       "DESCRIPTION":"This is a test app.",
       "DEVELOPER":"EvenDev",
+	  "VERSION":"1.0",
+	  "SIP":"false",
+	  "DEPENDENCIES":"none",
       "ICON":"http://evendev.us/repo/Icon.png",
       "TYPE":"APPLICATION",
       "LOCATION":"https://evendev.us/repo/testapp.zip"
@@ -15,6 +18,9 @@
       "NAME":"Example Tweak Package",
       "DESCRIPTION":"OwO Idk.",
       "DEVELOPER":"EvenDev",
+	  "VERSION":"1.0",
+	  "SIP":"true",
+	  "DEPENDENCIES":"com.altitudeteam.TweakingEngine; com.evendev.tweakapi;",
       "ICON":"http://evendev.us/repo/Icon.png",
       "TYPE":"TWEAK",
       "LOCATION":"https://evendev.us/repo/Tweak.zip"
@@ -23,6 +29,9 @@
       "NAME":"Joli",
       "DESCRIPTION":"Amazing theme for MacOS!",
       "DEVELOPER":"MTAC8",
+	  "VERSION":"1.0",
+	  "SIP":"true",
+	  "DEPENDENCIES":"com.altitudeteam.ThemingEngine;",
       "ICON":"https://evendev.us/repo/joli.png",
       "TYPE":"THEME",
       "LOCATION":"https://evendev.us/repo/Joli.zip"
