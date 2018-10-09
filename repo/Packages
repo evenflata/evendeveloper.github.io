@@ -1,0 +1,42 @@
+Package: us.evendev.cydiaxi
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: EvenDev <evflata@gmail.com>
+Filename: /r1.1.deb
+Size: 2021198
+MD5sum: 886a19255ad6c42e3798eb2878ec9610
+SHA1: dba566ce87d14f5ead5406cebeaea7498ad36ce8
+SHA256: ad50064987ea6661d087b656a3f9d5e2b3e5d39de73b8b17ef3a7a2567a1f970
+Section: CydiaXI
+Description: Cydia, with a little more 11.
+Author: EvenDev <evflata@gmail.com>
+Name: CydiaXI
+
+Package: us.evendev.cydiaxidark
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: EvenDev <evflata@gmail.com>
+Depends: us.evendev.cydiaxi
+Filename: /dark1.1.deb
+Size: 9372
+MD5sum: b4e4c0ae34c0048b4fd77141369e4806
+SHA1: 22562762dd7279bc261d8adbf03ae6427dfc23f7
+SHA256: 8244ac70bfdef42c61eee5425efae6bce6b02156f60c532187c34e28dd68b861
+Section: CydiaXI
+Description: Dark Mode Extension for CydiaXI.
+Author: EvenDev <evflata@gmail.com>
+Name: CydiaXI Dark Mode
+
+Package: us.evendev.cydiaxitheme
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: EvenDev <evflata@gmail.com>
+Filename: /theme1.deb
+Size: 21828
+MD5sum: ba4b4c3035c915653433f04ee72fbfff
+SHA1: f23945b089829ba7138b96ad5a17d3b1b4356f74
+SHA256: 982d8c9a3fcc2441888d09775c327dc376db97e664e5b21ab298ce45471793ec
+Section: CydiaXI
+Description: CydiaXI icon.
+Author: EvenDev <evflata@gmail.com>
+Name: CydiaXI Theme
