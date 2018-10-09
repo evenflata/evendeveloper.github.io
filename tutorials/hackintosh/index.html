@@ -1,0 +1,132 @@
+<html>
+  <head>
+    <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 300;
+      background-color: #eee;
+    }
+    img.thumbnail {
+      width: 100%;
+    }
+    div.backbtn {
+      position: fixed;
+      top: 0;
+      height: auto;
+      color: white;
+      cursor: pointer;
+      margin-left: 7px;
+    }
+    h1.title {
+      font-size: 40pt;
+      font-weight: 500;
+      margin: 30;
+      color: #333;
+    }
+    div.contents {
+      width: 100%;
+      background-color: #ddd;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    h1.undertitle {
+      font-size: 30pt;
+      font-weight: 500;
+      margin-left: 30;
+      color: #333;
+    }
+    h1.info {
+      margin-left: 30;
+      font-weight: 300;
+    }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900" rel="stylesheet">
+    <title>Hackintosh Any Intel-based Desktop - EvenDev</title>
+  </head>
+  <body>
+    <div class="backbtn" onclick="window.location='/#hackintosh';"><h1 style="margin: 0; font-weight: 300;">X</h1></div>
+    <img class="thumbnail" src="thumb.png">
+
+    <h1 class="title">How to Hackintosh any Intel-based Desktop (High Sierra)</h1>
+    <hr style="margin: 30">
+    <h1 class="undertitle">What do you need to know?</h1>
+    <h1 class="info">Hackintoshing is basically installing MacOS on non-Apple hardware. The difficulty of this process is really dependant on the computer, and everyone hackintoshing needs a lot of patience. There will be lots of ups and downs, be prepared for that and that it's not a guarantee that everything on your hackintosh will work prefectly. As Apple uses Intel CPUs in their computers, AMD is not officially supported by MacOS and requires extra patches and knowledge, which I wont cover in this tutorial.</h1>
+
+    <h1 class="undertitle">What do you need?</h1>
+    <h1 class="info">
+      To hackintosh, you'll need: <br><br>
+        - A Mac or a MacOS Virtual Machine <br>
+        - An 8GB+ USB Drive <br>
+        - A Destkop with an Intel CPU <br>
+        - Knowledge in how computers and operating systems work <br>
+        - Patience
+    </h1>
+
+    <div class="contents">
+      <h1 class="undertitle">Contents</h1>
+      <ul style="margin-left: 30; font-size: 22pt; font-weight: 500;">
+        <a href="#pre-ins" style="color: #F238AA"><li>Pre-installation</li></a>
+          <ul>
+            <a href="#bootable-usb" style="color: #F238AA"><li>Making the Bootable Installer USB</li></a>
+            <a href="#" style="color: #F238AA"><li>Installing Clover on the USB</li></a>
+            <a href="#" style="color: #F238AA"><li>Configuring the Config.plist</li></a>
+            <a href="#" style="color: #F238AA"><li>Adding Kexts</li></a>
+            <a href="#" style="color: #F238AA"><li>Configuring BIOS Settings</li></a>
+          </ul>
+        <a href="#"><a href="#" style="color: #F238AA"><li>Installation</li></a>
+          <ul>
+            <a href="#" style="color: #F238AA"><li>Booting the Installer</li></a>
+            <a href="#" style="color: #F238AA"><li>Formatting the Drive</li></a>
+            <a href="#" style="color: #F238AA"><li>Disable APFS Conversion (Optional)</li></a>
+            <a href="#" style="color: #F238AA"><li>Installing High Sierra</li></a>
+            <a href="#" style="color: #F238AA"><li>First Boot</li></a>
+          </ul>
+        <a href="#" style="color: #F238AA"><li>Post-installation</li></a>
+          <ul>
+            <a href="#" style="color: #F238AA"><li>Installing Clover on Harddrive</li></a>
+            <a href="#" style="color: #F238AA"><li>NVidia Graphics</li></a>
+            <a href="#" style="color: #F238AA"><li>AMD Graphics</li></a>
+            <a href="#" style="color: #F238AA"><li>Integrated Graphics</li></a>
+            <a href="#" style="color: #F238AA"><li>Fixing Sound</li></a>
+            <a href="#" style="color: #F238AA"><li>Networking</li></a>
+            <a href="#" style="color: #F238AA"><li>Fixing iMessage and FaceTime</li></a>
+          </ul>
+        </ul>
+    </div>
+
+    <h1 class="title" id="pre-ins">Pre-installation</h1>
+    <h1 class="undertitle" id="bootable-usb">Making the Bootable Installer USB</h1>
+    <h1 class="info">
+      Firstly, we'll have to download the High Sierra installer app. As of the Mojave release, High Sierra is no longer available to download from the App Store. But, I have an alternative way: <br><br>
+
+        &#9679; First, we'll grab a copy of the High Sierra Patcher by <a href="http://twitter.com/dosdude1" target="_blank" style="color: #F238AA; text-decoration: none;">dosdude1</a>: <a target="_blank" href="https://drive.google.com/file/d/1Wsbkxqx24SQzRjX_Ng-_H2gQdPW_U70U/view" style="color: #F238AA; text-decoration: none;">High Sierra Patcher</a><br>
+        &#9679; Download and open it on your Mac <br>
+        &#9679; In the menubar (that bar on the top of your screen) you'll see a button called 'Tools', press that and then 'Download macOS High Sierra' <br>
+        &#9679; You will first get a prompt asking you if you want to download High Sierra, press yes, then you'll get a promopt asking you where you want to save it, save it to the Applications folder <br><br>
+
+      The MacOS High Sierra installer will now be downloaded to /Applications. <br><br>
+
+      When the download is complete, you can close the patcher. <br>
+      Next up is to format the usb: <br><br>
+
+        &#9679; First, open Disk Utility <br>
+        &#9679; Select the drive (Be aware that it needs to be the hole drive not only the volume) and press 'Erease' <br>
+        &#9679; Erease the USB with the following settings: <br>
+        - Name: USB <br>
+        - Format: MacOS Extended (Journaled) <br>
+        - Scheme: GUID Partition Map <br><br>
+
+        When the USB is finished formatting, open terminal <br>
+        Here you will need to type the following command: <br>
+        <a style="background-color: #d9d9d9; border: 1px solid #999; border-radius: 5px; padding-left: 10px; padding-right: 10px;">sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia --applicationpath /Applications/Install\ macOS\ High\ Sierra.app  --volume /Volumes/USB --no-interaction</a> <br>
+        Enter your password if prompted, your USB will now be made bootable with the installer on it <br><br>
+
+        Now that that is done, we can go and install clover to on the USB:
+        <br>
+          &#9679; Grab a copy of Clover EFI Bootloader from <a target="_blank" href="https://sourceforge.net/projects/cloverefiboot/" style="color: #F238AA; text-decoration: none;">here</a> <br>
+          &#9679; Download and run it, follow the instructions and select your USB (most likely named <a style="background-color: #d9d9d9; border: 1px solid #999; border-radius: 5px; padding-left: 10px; padding-right: 10px;">Install macOS High Sierra</a>) for the destination. <br>
+          &#9679; For more information on how to configure your clover installation, <a target="_blank" href="https://clover-wiki.zetam.org/Installation#using-the-installer" style="color: #F238AA; text-decoration: none;">see this link</a>
+    </h1>
+  </body>
+</html>
