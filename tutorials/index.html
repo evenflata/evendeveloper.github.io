@@ -12,23 +12,13 @@
         display: table;
         width: 100%;
       }
-      div.tutorial-1 {
+      div.hackintosh {
         height: 100%;
         background-color: #1EA1FF;
         display: table;
         width: 100%;
-      }
-      div.tutorial-2 {
-        height: 100%;
-        background-color: #FF51E7;
-        display: table;
-        width: 100%;
-      }
-      div.tutorial-3 {
-        height: 100%;
-        background-color: #2DCE3D;
-        display: table;
-        width: 100%;
+        background-image: url("hackintosh.png");
+        background-size: cover;
       }
       span {
         display: table-cell;
@@ -40,6 +30,17 @@
         font-size: 40pt;
         font-weight: 200;
       }
+      div.titlor:hover {
+        background-color: rgba(255, 255, 255, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 25px;
+      }
+      div.titlor {
+        width: 720px;
+        margin-left: 50px;
+        padding: 25px;
+        cursor: pointer;
+      }
     </style>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,500,600" rel="stylesheet">
     <title>Tutorials - EvenDev</title>
@@ -49,14 +50,11 @@
       <span><h1 class="title">EvenDev<br><a style="font-weight: 600; font-size: 60pt">Tutorials.</a></h1></span>
       <canvas id="canvas"></canvas>
     </div>
-    <div class="tutorial-3">
-      <span><h1 class="title">Coming<br><a style="font-weight: 600; font-size: 60pt">Soon.</a></h1></span>
-    </div>
-    <div class="tutorial-2">
-      <span><h1 class="title">Coming<br><a style="font-weight: 600; font-size: 60pt">Soon.</a></h1></span>
-    </div>
-    <div class="tutorial-1">
-      <span><h1 class="title">Coming<br><a style="font-weight: 600; font-size: 60pt">Soon.</a></h1></span>
+    <div class="hackintosh" onclick="window.location='/hackintosh';">
+      <span>
+      <div class="titlor"><h1 class="title"><a style="font-weight: 600; font-size: 60pt">Hackintosh</a><br>Any Intel-based Desktop</h1>
+      </div>
+      </span>
     </div>
   </body>
   <script>
