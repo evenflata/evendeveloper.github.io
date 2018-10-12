@@ -1,0 +1,9 @@
+Package: us.evendev.cydiaxi
+Name: CydiaXI
+Depends: mobilesubstrate
+Version: 2.0
+Architecture: iphoneos-arm
+Description: Making Cydia more iOS 11-looking
+Maintainer: EvenDev <evflata@gmail.com>
+Author: EvenDev <evflata@gmail.com>s
+Section: Tweaks
