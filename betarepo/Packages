@@ -11,3 +11,17 @@ Section: Tweaks
 Description: Making Cydia look more iOS 11-ish
 Author: EvenDev <evflata@gmail.com>
 Name: CydiaXI
+
+Package: us.evendev.CydiaXI
+Version: 2.0.1
+Architecture: iphoneos-arm
+Maintainer: EvenDev <evflata@gmail.com>
+Filename: /r2b2.deb
+Size: 1735642
+MD5sum: 53d39f14efaf7be2bbc1773672c53214
+SHA1: 9b41ab5202ef3e5c744ca43de2d4c650b5e1753b
+SHA256: 5177c6b61097bd43ed24e11c64cec2258c9edd87a9253dcb1a21503e86a719bf
+Section: Tweaks
+Description: Making Cydia look more iOS 11-ish
+Author: EvenDev <evflata@gmail.com>
+Name: CydiaXI
