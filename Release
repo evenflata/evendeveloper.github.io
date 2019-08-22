@@ -3,7 +3,7 @@ Label: EvenDev
 Suite: stable
 Version: 1.0
 Codename: macOS
-Date: Thu, 22 Aug 2019 11:58:44 +0000
+Date: Thu, 22 Aug 2019 12:23:37 +0000
 Architectures: darwin-amd64
 Components: main
 Description: EvenDevs Repo OwO
@@ -11,19 +11,19 @@ MD5Sum:
    Packages
  d41d8cd98f00b204e9800998ecf8427e        0 Packages.gz
  d41d8cd98f00b204e9800998ecf8427e        0 Packages.xz
- ea35ca9e4214806ca0b8e77ebc0b5653      318 Release
+ 216bcdb1f25765b7af747ebf6e7d40c1      318 Release
 SHA1:
    Packages
  da39a3ee5e6b4b0d3255bfef95601890afd80709        0 Packages.gz
  da39a3ee5e6b4b0d3255bfef95601890afd80709        0 Packages.xz
- cccfe379e0454c9bb7af7b9c69e28d9b9a852653      513 Release
+ 53c527fe7efdb3433329497e05bd586e19cfd9e3      513 Release
 SHA256:
    Packages
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855        0 Packages.gz
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855        0 Packages.xz
- 1993a6d4562c764be02e9430dad0f0aa037d1dfb02f9c6b5e8ffb07ab08407dd      766 Release
+ 7089b9b61a127a2f17cbf99f3fad6c7f60bba11e9c2f2f29ca1fa30cb6f4a146      766 Release
 SHA512:
    Packages
  cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e        0 Packages.gz
  cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e        0 Packages.xz
- 1de003a3d34dbe99cee184d25cc369a30905b14ecba0bc8bba7c41e633c4fd12aef89e2522d4e0f0585402f7fa01bcf9a0801fa65fdccf7288891d4b14671618     1171 Release
+ a533513b1e166c22f9a7e5bc449d0219d3f88a6cc3f68b15dc4ffcaaa09282000a4357d84c4bc64070f969fa816198368700f4446fc7c4b214f757bb0811ea90     1171 Release
