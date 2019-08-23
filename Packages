@@ -3,10 +3,10 @@ Version: 1.0
 Architecture: darwin-amd64
 Maintainer: EvenDev <evflata@gmail.com>
 Filename: ./debs/Cartool.deb
-Size: 12808
-MD5sum: 05f4c5d4355ce6bfb26c09e7f19dd440
-SHA1: 7068ad05fe1dfcb4eae4f48feadd19eb49d5a6ca
-SHA256: 688e48957224f921aa9b830909a0c9a0786be78803b53ea99709f34f98df40ca
+Size: 12272
+MD5sum: a75b401d2d7ca055f9358a27fb2cc077
+SHA1: 5cb8e10aa05e5cc48fa9334e4c61bdcfb3f12d4e
+SHA256: e5c50155c24a207b7976ff25f7afb1d1513257a819ec9ba3d9d8cf4478c8d81f
 Section: utilities
 Priority: optional
 Homepage: https://evendev.org
