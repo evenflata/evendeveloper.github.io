@@ -1,0 +1,89 @@
+h1, h2, h3, h4, h5, h6, a, p { margin:0 }
+ /* * {border: 1px solid black} */
+body {
+    background-color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+    padding: 8px;
+    padding-top: 0px;
+    margin-top: -12px;
+}
+body::-webkit-scrollbar { width: 0 !important }
+a.title {
+    font-size: 16pt;
+    font-weight: 700;
+}
+.screen-width {
+    width: 100%;
+    border: none;
+}
+td {
+    padding: 0
+}
+.title-link {
+    font-weight: 400;
+    color: rgb(0, 128, 256);
+    font-size: 11pt;
+}
+.version {
+    font-size: 9pt;
+    color: rgba(0, 0, 0, 0.5);
+}
+a.changes {
+    font-size: 9pt;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-bottom: 8px;
+    margin-top: 12px;
+}
+.screenshots {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    height: auto;
+    margin-left: -16px;
+    padding-left: 16px;
+    margin-right: -16px;
+    padding-left: 16px;
+    margin-top: 8px;
+}
+.screenshot {
+    max-height: 390px;
+    border-radius: 5px;
+    display: inline-block;
+}
+a.iphone {
+    color: rgba(0, 0, 0, 0.48);
+    font-size: 9pt;
+    font-weight: 500;
+}
+a.description {
+    font-size: 9pt;
+}
+a.developer {
+    font-size: 9pt;
+    color: rgb(0, 128, 256);
+}
+a.developer-role {
+    font-size: 9pt;
+    color: rgba(0, 0, 0, 0.42);
+}
+a.info-1 {
+    font-size: 9pt;
+    color: rgba(0, 0, 0, 0.42);
+}
+a.info-2 {
+    font-size: 9pt;
+    color: black;
+}
+tr.info {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+tr.info td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}

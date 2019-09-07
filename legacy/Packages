@@ -1,0 +1,113 @@
+Package: org.evendev.dne
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: EvenDev
+Installed-Size: 328
+Depends: mobilesubstrate, com.creaturesurvive.libcscolorpicker
+Filename: /dne1.1.1.deb
+Size: 56800
+MD5sum: a0372b56153f696114010d436bc799a3
+SHA1: c771ee12be223673da8d475a2160dca264cea165
+SHA256: 761b3848c6166632d33c578e33eecb4c83d2ecb1e24d0b8a2bddf2323ea1f270
+Section: Tweaks
+Description: epic dark mode for settings app
+Depiction: https://repo.evendev.org/depictions/dne.html
+Author: EvenDev
+Name: Dark'n'epic
+
+Package: org.evendev.dne
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: EvenDev
+Installed-Size: 324
+Depends: mobilesubstrate
+Filename: /dne1.0.deb
+Size: 53240
+MD5sum: eacb5ed8f75f6f25a10c0b4694da5819
+SHA1: 5a7a5d0e2c0d7bb8a2287cde5204b9b4369af07b
+SHA256: 23e600f53b0ec6e35c2cc6e3c78f04ba7a0ad3181445acac76193dbf6df6c8d9
+Section: Tweaks
+Description: epic dark mode for settings app
+Depiction: https://repo.evendev.org/depictions/dne.html
+Author: EvenDev
+Name: Dark'n'epic
+
+Package: org.evendev.cydiaxii
+Version: 2.0.2
+Architecture: iphoneos-arm
+Maintainer: EvenDev
+Depends: mobilesubstrate
+Filename: /r2.0.2.deb
+Size: 2663504
+MD5sum: ef9594de9a4c1790ad3b5c1eb899c02d
+SHA1: 3b0ccd40f91a8ed2ef6bcfd99abb72db94f008ca
+SHA256: 56110706ac9aeda44dfab68f60b6ded68bdccaa242b4b7fcadfa0a8129066294
+Section: Tweaks
+Description: Cydia, now with more iOS 11.
+Depiction: https://evendev.org/repo/depictions/cydiaxi.html
+Author: EvenDev
+Name: CydiaXI
+
+Package: org.evendev.cydiaxii
+Version: 2.0.1
+Architecture: iphoneos-arm
+Maintainer: EvenDev <evendevv@gmail.com>
+Filename: /r2.1.deb
+Size: 2155716
+MD5sum: 25bef070c31d12f7a6f1323ef2d19703
+SHA1: 6a8a289812beae6ac0278eb9cad6050a6e0526c3
+SHA256: 3b3eb31a13389b582085bf0c8cebb76d2e20fa092d8ddf09e3596d9041c8b95e
+Section: Tweaks
+Description: Cydia, now with more iOS 11.
+Depiction: https://evendev.org/repo/depictions/cydiaxi.html
+Author: EvenDev <evendevv@gmail.com>
+Name: CydiaXI
+
+Package: org.evendev.cydiaxii
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: EvenDev
+Depends: mobilesubstrate
+Filename: /r2.deb
+Size: 2127232
+MD5sum: 2bfbd92d23453e7e31b8f09a43ca9649
+SHA1: 31e3de16e9fd7854e9b637f72bb55e97f95cd7b2
+SHA256: 89e9477e73f2a033f911511fa57b446e8cc81d42b6a7b2a860db046f5f2b9425
+Section: Tweaks
+Description: Cydia, now with more iOS 11.
+Depiction: https://evendev.org/repo/depictions/cydiaxi.html
+Author: EvenDev
+Name: CydiaXI
+
+Package: org.evendev.dock-o-mizer
+Version: 0.1-4+debug
+Architecture: iphoneos-arm
+Maintainer: EvenDev
+Installed-Size: 312
+Depends: mobilesubstrate
+Filename: ./dockomizer0.1.deb
+Size: 8016
+MD5sum: fe373b78d26778854a2ef5e5854d663b
+SHA1: 3f817f6774efa6403b7cdd6ac10463e89cd0290b
+SHA256: 0305f1a5aa34b5e8f90d27ef02886059b2d1dbf201e30499786afb285425d5a6
+Section: Beta
+Description: Make the dock yours.
+Depiction: https://evendev.org/repo/depictions/dockomizer.html
+Author: EvenDev
+Name: Dock-o-mizer
+
+Package: org.evendev.dockline
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: EvenDev
+Depends: mobilesubstrate
+Filename: /DLR1.0.deb
+Size: 11172
+MD5sum: 9c562cbb82501b79af821a5881c6a393
+SHA1: 03215c11154d1a0e527a5085a8e3118a1d8d42d5
+SHA256: b17551412774b5ab5c75b4332dc48a39783316eb4968b4187bec87660cc194ac
+Section: Tweaks
+Description: Remove the small but mildy infuriating line above your dock.
+Depiction: https://evendev.org/repo/depictions/dockline.html
+Author: EvenDev
+Name: DockLineRemover

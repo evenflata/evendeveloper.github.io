@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Depictions</title>
+    </head>
+    <body onload="loaded()">
+        <hr>
+
+        <!-- CHANGELOG -->
+        <table class="screen-width">
+            <tr>
+                <td>
+                    <a class="title">What's New</a>
+                </td>
+                <td style="float: right; padding-top: 4px">
+                    <a class="title-link">Version History</a>
+                </td>
+            </tr>
+        </table>
+
+        <table class="screen-width" style="margin-bottom: 5px">
+            <tr>
+                <td>
+                    <a class="version">Version 1.1.1</a>
+                </td>
+                <td style="float: right;">
+                    <a class="version">April 27, 2019</a>
+                </td>
+            </tr>
+        </table>
+
+        <a class="changes"> &bullet; Add libCSColorPicker as a dependency (Fixes the broken preferences)</a>
+
+        <hr>
+
+        <!-- SCREENSHOTS -->
+        <a class="title">Preview</a>
+
+        <div class="screenshots">
+            <img class="screenshot" src="http://repo.evendev.org/depictions/dne1.png">
+            <img class="screenshot" src="http://repo.evendev.org/depictions/dne2.png">
+            <img class="screenshot" src="http://repo.evendev.org/depictions/dne3.png">
+            <img class="screenshot" src="http://repo.evendev.org/depictions/dne4.png">
+        </div>
+        <table class="screen-width" style="margin-top: 5px">
+            <tr>
+                <td style="width: 26px; float: left; padding-top: 3px">
+                    <img src="iphone.png" style="height: 16px">
+                </td>
+                <td style="float: left;">
+                    <a class="iphone" id="iphone">iPhone</a>
+                </td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <!-- DESCRIPTION -->
+
+        <a class="description">Customize the Settings app the way you like it. You can make the cells rounded, darken the UI and hide the separators.</a>
+        
+        <a href="https://twitter.com/even_dev"><table class="screen-width" style="margin-top: 15px; margin-bottom: 20px">
+            <tr>
+                <td>
+                    <a class="developer">EvenDev</a><br>
+                    <a class="developer-role">Developer</a>
+                </td>
+                <td style="float: right">
+                    <img src="chevron.png" style="height: 14px; margin-top: 12px">
+                </td>
+            </tr>
+        </table></a>
+
+        <hr>
+        
+        <!-- INFORMATION -->
+
+        <a class="title">Information</a>
+
+        <table class="screen-width" style="margin-top: 5px; border-collapse: collapse">
+            <tr class="info">
+                <td>
+                    <a class="info-1">Developer</a>
+                </td>
+                <td style="float: right">
+                    <a class="info-2">EvenDev</a>
+                </td>
+            </tr>
+            <tr class="info">
+                <td>
+                    <a class="info-1">Size</a>
+                </td>
+                <td style="float: right">
+                    <a class="info-2">57 KB</a>
+                </td>
+            </tr>
+            <tr class="info">
+                <td>
+                    <a class="info-1">Category</a>
+                </td>
+                <td style="float: right">
+                    <a class="info-2">Tweaks</a>
+                </td>
+            </tr>
+            <tr class="info">
+                <td>
+                    <a class="info-1">Compability</a>
+                </td>
+                <td style="float: right">
+                    <a class="info-2">Tested on iOS 12</a>
+                </td>
+            </tr>
+            <tr class="info">
+                <td>
+                    <a class="info-1">Price</a>
+                </td>
+                <td style="float: right">
+                    <a class="info-2">Free</a>
+                </td>
+            </tr>
+            <tr class="info" style="border: none">
+                <td>
+                    <a class="info-1">Identifier</a>
+                </td>
+                <td style="float: right">
+                    <a class="info-2">org.evendev.dne</a>
+                </td>
+            </tr>
+        </table>
+    </body>
+    <script>
+    function loaded(){
+        document.body.style.width = window.screen.availWidth - 32 + "px";
+        
+        if (navigator.userAgent.includes("Lime (Cydia) Dark")) {
+            document.body.style.backgroundColor = "#000";
+
+            document.getElementById("iphone").style.color = "rgba(255, 255, 255, 0.48)";
+            var titles = document.getElementsByClassName("title");
+            var versions = document.getElementsByClassName("version");
+            var horizontals = document.getElementsByTagName("hr");
+            var changes = document.getElementsByClassName("changes");
+            var descriptions = document.getElementsByClassName("description");
+            var developerroles = document.getElementsByClassName("developer-role");
+            var info1s = document.getElementsByClassName("info-1");
+            var info2s = document.getElementsByClassName("info-2");
+            var infos = document.getElementsByClassName("info");
+            for(var i = 0; i < titles.length; i++) {
+                titles.item(i).style.color = "#fff";
+            }
+            for(var i = 0; i < versions.length; i++) {
+                versions.item(i).style.color = "rgba(255, 255, 255, 0.5)";
+            }
+            for(var i = 0; i < horizontals.length; i++) {
+                horizontals.item(i).style.backgroundColor = "rgba(255, 255, 255, 0.2)";
+            }
+            for(var i = 0; i < changes.length; i++) {
+                changes.item(i).style.color = "#fff";
+            }
+            for(var i = 0; i < descriptions.length; i++) {
+                descriptions.item(i).style.color = "#fff";
+            }
+            for(var i = 0; i < developerroles.length; i++) {
+                developerroles.item(i).style.color = "rgba(255, 255, 255, 0.42)";
+            }
+            for(var i = 0; i < info1s.length; i++) {
+                info1s.item(i).style.color = "rgba(255, 255, 255, 0.42)";
+            }
+            for(var i = 0; i < info2s.length; i++) {
+                info2s.item(i).style.color = "#fff";
+            }
+            for(var i = 0; i < infos.length; i++) {
+                infos.item(i).style.borderBottom = "1px solid rgba(255, 255, 255, 0.05)";
+            }
+        }
+    }
+    </script>
+</html>
