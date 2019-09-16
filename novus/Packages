@@ -13,3 +13,19 @@ Homepage: https://evendev.org
 Description: Export images from OS X / iOS .car CoreUI archives
 Author: Steven Troughton Smith
 
+Package: novusgui
+Version: 0.0.1
+Architecture: darwin-amd64
+Maintainer: Polar Development
+Installed-Size: 6700
+Depends: apt (>= 1.8.0)
+Filename: ./debs/novusgui_0.0.1_darwin-amd64.deb
+Size: 5918888
+MD5sum: a63991723c4e4b914e77916bba20a9d4
+SHA1: 9eda7c3c0b158c7bc2e1b7023d1c4545751078cc
+SHA256: a709d02fde39475a47d45c2cc5357b2627ac8b5c8d4984e97b801261330513ce
+Section: Packaging
+Description: Novus Package Manager
+Author: Polar Development
+Name: Novus
+
