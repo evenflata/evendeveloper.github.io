@@ -1,0 +1,13 @@
+{
+    "card-1": {
+        "title": "THEME\nOF THE\nWEEK",
+        "package-identifier": "com.lazynagy.pulsar",
+        "repository": "Packix",
+        "package-name": "Pulsar",
+        "package-desc": "Vibrant Glyphs.",
+        "package-icon": "https://evendev.org/lime/story/pulsarIcon.png",
+        "foreground-image": "https://evendev.org/lime/story/pulsarFG.png",
+        "background-image": "https://evendev.org/lime/story/pulsarBG.png",
+        "story": "https://evendev.org/lime/story/pulsar.json"
+    }
+}
