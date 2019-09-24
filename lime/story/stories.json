@@ -5,9 +5,9 @@
         "repository": "Packix",
         "package-name": "Pulsar",
         "package-desc": "Vibrant Glyphs.",
-        "package-icon": "https://evendev.org/lime/story/pulsarIcon.png",
-        "foreground-image": "https://evendev.org/lime/story/pulsarFG.png",
-        "background-image": "https://evendev.org/lime/story/pulsarBG.png",
-        "story": "https://evendev.org/lime/story/pulsar.json"
+        "package-icon": "https://evendev.org/lime/story/icons/com.lazynagy.pulsar.png",
+        "foreground-image": "https://evendev.org/lime/story/foreground/com.lazynagy.pulsar.png",
+        "background-image": "https://evendev.org/lime/story/background/com.lazynagy.pulsar.png",
+        "story": "https://evendev.org/lime/story/com.lazynagy.pulsar.html"
     }
 }
