@@ -1,10 +1,32 @@
 {
-    "amount": 1,
+    "amount": 3,
     "card-1": {
         "type": "tweakotw",
         "package-identifier": "com.lazynagy.pulsar",
         "repository": "Packix",
         "package-name": "Pulsar",
+        "package-desc": "Vibrant Glyphs.",
+        "package-icon": "https://evendeveloper.github.io/lime/story/icons/com.lazynagy.pulsar.png",
+        "foreground-image": "https://evendeveloper.github.io/lime/story/foreground/com.lazynagy.pulsar.png",
+        "background-image": "https://evendeveloper.github.io/lime/story/background/com.lazynagy.pulsar.png",
+        "story": "https://evendeveloper.github.io/lime/story/com.lazynagy.pulsar.html"
+    }
+    "card-2": {
+        "type": "tweakotw",
+        "package-identifier": "com.lazynagy.pulsar",
+        "repository": "Packix",
+        "package-name": "Bruh",
+        "package-desc": "Vibrant Glyphs.",
+        "package-icon": "https://evendeveloper.github.io/lime/story/icons/com.lazynagy.pulsar.png",
+        "foreground-image": "https://evendeveloper.github.io/lime/story/foreground/com.lazynagy.pulsar.png",
+        "background-image": "https://evendeveloper.github.io/lime/story/background/com.lazynagy.pulsar.png",
+        "story": "https://evendeveloper.github.io/lime/story/com.lazynagy.pulsar.html"
+    }
+    "card-3": {
+        "type": "tweakotw",
+        "package-identifier": "com.lazynagy.pulsar",
+        "repository": "Packix",
+        "package-name": "Wooh",
         "package-desc": "Vibrant Glyphs.",
         "package-icon": "https://evendeveloper.github.io/lime/story/icons/com.lazynagy.pulsar.png",
         "foreground-image": "https://evendeveloper.github.io/lime/story/foreground/com.lazynagy.pulsar.png",
