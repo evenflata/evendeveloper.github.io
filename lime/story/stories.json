@@ -10,7 +10,7 @@
         "foreground-image": "https://evendeveloper.github.io/lime/story/foreground/com.lazynagy.pulsar.png",
         "background-image": "https://evendeveloper.github.io/lime/story/background/com.lazynagy.pulsar.png",
         "story": "https://evendeveloper.github.io/lime/story/com.lazynagy.pulsar.html"
-    }
+    },
     "card-2": {
         "type": "tweakotw",
         "package-identifier": "com.lazynagy.pulsar",
@@ -21,7 +21,7 @@
         "foreground-image": "https://evendeveloper.github.io/lime/story/foreground/com.lazynagy.pulsar.png",
         "background-image": "https://evendeveloper.github.io/lime/story/background/com.lazynagy.pulsar.png",
         "story": "https://evendeveloper.github.io/lime/story/com.lazynagy.pulsar.html"
-    }
+    },
     "card-3": {
         "type": "tweakotw",
         "package-identifier": "com.lazynagy.pulsar",
