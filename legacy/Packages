@@ -111,3 +111,18 @@ Description: Remove the small but mildy infuriating line above your dock.
 Depiction: https://evendev.org/repo/depictions/dockline.html
 Author: EvenDev
 Name: DockLineRemover
+
+Package: org.evendev.testpkg
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: EvenDev
+Filename: ./
+Size: 11172
+MD5sum: 9c562cbb82501b79af821a5881c6a393
+SHA1: 03215c11154d1a0e527a5085a8e3118a1d8d42d5
+SHA256: b17551412774b5ab5c75b4332dc48a39783316eb4968b4187bec87660cc194ac
+Section: Tweaks
+Description: Test package I use on lime
+Depiction: https://evendev.org/
+Author: EvenDev
+Name: Lime Test Package
